@@ -10,10 +10,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<AddPost/>}/>
-      <Route path='/Search' element={<SearchPost/>}/>
-      <Route path='/Delete' element={<DeletePost/>}/>
-      <Route path='/View' element={<ViewAll/>}/>
+      <Route/>
     </Routes>
     </BrowserRouter>
   );
